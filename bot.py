@@ -152,4 +152,4 @@ async def hate(ctx):
     await ctx.send(response)
 
 
-bot.run('NzQ3NTg5OTU0NDIyNTcxMDQ5.X0RFZg.k54U6fIfN2XuzrbL0KMNzJhCUfA')
+bot.run('your token')
