@@ -143,10 +143,7 @@ async def leave(ctx):
 # command for insults.
 @bot.command()
 async def hate(ctx):
-    insults = [
-        'Fuck Off!', 'Baka.', 'Idiot!', 'You é gay?', 'Shit.',
-        'Shit!',
-    ]
+    insults = [ 'Baka.', 'Idiot!', 'Shit.', 'Shit!']
 
     response = random.choice(insults)
     await ctx.send(response)
